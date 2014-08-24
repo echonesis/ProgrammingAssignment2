@@ -40,7 +40,7 @@ cacheSolve <- function(x, ...) {
         
         ## Check if the inverse matrix has been solved
         if(!is.null(cm)){
-                message("Try to get cached matrix for inverse caching...")
+                message("getting cached data")
                 return(cm)
         }
         
